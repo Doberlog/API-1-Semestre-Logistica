@@ -45,13 +45,15 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 
 | Rank | Prioridade | User Story                                                                                                                                              | Estimativa | Sprint |
 |------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------|
-| 1    | Alta       | Como desenvolvedor, quero extrair dados do Comex Stat, para iniciar a base do projeto |  | 1
-| 2    | Alta       | Como desenvolvedor, quero tratar e organizar os dados, para torná-los utilizáveis |    | 1
-| 3    | Média      | Como desenvolvedor, quero filtrar dados do estado de São Paulo, para análise regional |    | 1
-| 4    | Média      | Como desenvolvedor, quero unir os dados de importação e exportação, para entender o volume comercial|    | 1
-| 5    | Média      | Como cliente, quero visualizar volume em KG e valor FOB, para medir desempenho inicial|    |  | 
-| 6    | Alta       | Como cliente, quero identificar os modais utilizados, para entender a cadeia de transporte local|  | 1
-| 7    | Alta       | Como cliente, quero identificar as principais unidades da receita federal para entender melhor o movimento logistico da região|  | 1
+| 1    | Alta       | Como gestor público, desejo exportar os dados de importação e exportação para arquivos em formato CSV ou Excel, visando o consumo das informações em ferramentas externas. |  | 1
+| 2    | Alta       | Como gestor público, espero a extração, o tratamento e a estruturação dos dados de comércio exterior do Estado de São Paulo via Comex Stat (2023-2026), visando o mapeamento analítico dos fluxos logísticos entre municípios brasileiros e o mercado internacional. |    | 1
+| 3    | Média      | Como gestor público quero que façam
+um 5W2H para melhor organização
+de tempo para a realização do projeto |    | 1
+| 4    | Baixa      | Como gestor público quero que façam um 5W2H para melhor organização de tempo para a realização do projeto |    | 1
+| 5    | Média      | |    |  | 
+| 6    | Alta       |   | 1
+| 7    | Alta       |   | 1
 | 8    | Alta       | Como desenvolvedor, quero identificar países parceiros, para análise inicial do comércio |  | 1
 | 9    | Alta       | Como desenvolvedor, quero criar a base de dados para gerar o dashboard|  | 1
 | 10   | Média      | Como desenvolvedor, quero criar a estrutura inicial do dashboard, para iniciar a visualização dos dados|    | 1
