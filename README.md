@@ -50,7 +50,7 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 | 3    | Baixa      | Como gestor público quero que façam um 5W2H para melhor organizaçãode tempo para a realização do projeto |    | 1
 | 4    | Baixa      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. |    | 1 |
 | 5    | Média      |  |    |  | 
-| 6   | Baixa      | Como gestor público, espero que me mostrem os dados de transporte de cargas |  | 2
+| 6   | Baixa      | Como gestor público, espero que me mostrem os dados de transporte de cargas | 
 | 7   | Alta       | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 2
 | 8   | Média      | Como gestor público, espero que utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+ |    | 2
 | 9   | Alta       |  Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional. |    | 2
@@ -58,8 +58,7 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 |  11  | Alta       |  Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 3 |
 | 12   | Alta       | Como gestor público espero que no dashboard tenha os dados de importação do municipios do estado de São Paulo |  | 3
 | 13   | Alta      | Como gestor público, espero que o dashboard apresente os indicadores de desempenho exportador dos municípios do Estado de São Paulo, visando ao monitoramento da balança comercial regional.   | | 3
-| 14   | Média      |         |  | 0
-| 15   | Alta       |         |   | 0
+
 
 
 
