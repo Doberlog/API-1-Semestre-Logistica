@@ -27,3 +27,18 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 | **Team Member** | Arthur Medeiros | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](URL_AQUI) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](URL_AQUI) |
 | **Team Member** | Larissa de Áraujo | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](URL_AQUI) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](URL_AQUI) |
 | **Team Member** | Gustavo Nilfran | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](URL_AQUI) | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](URL_AQUI) |
+
+# Objetivo do Projeto
+Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma GitHub, visando:
+* Centralizar os trabalhos e projetos;
+* Organizar e estruturar as informações;
+* Versionar e controlar as alterações;
+* Facilitar o compartilhamento e feedback;
+* Desenvolver habilidades técnicas.
+
+
+## Tecnologias Utilizadas
+ 
+* GitHub
+* Power BI
+* Python (Colab)
