@@ -48,10 +48,10 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 | 1    | Alta       | Como gestor público, desejo exportar os dados de importação e exportação para arquivos em formato CSV ou Excel, visando o consumo das informações em ferramentas externas. |  | 1
 | 2    | Alta       | Como gestor público, espero a extração, o tratamento e a estruturação dos dados de comércio exterior do Estado de São Paulo via Comex Stat (2023-2026), visando o mapeamento analítico dos fluxos logísticos entre municípios brasileiros e o mercado internacional. |    | 1
 | 3    | Baixa      | Como gestor público quero que façam um 5W2H para melhor organizaçãode tempo para a realização do projeto |    | 1
-| 4    | Média      |  |    | 1
+| 4    | Média      |  |    | 1 |
 | 5    | Média      | |    |  | 
-| 6    | Alta       |   | 1
-| 7    | Alta       |   | 1
+| 6    | Alta       |   | 1 |
+| 7    | Alta       |   | 1 |
 | 8    | Alta       | Como desenvolvedor, quero identificar países parceiros, para análise inicial do comércio |  | 1
 | 9    | Alta       | Como desenvolvedor, quero criar a base de dados para gerar o dashboard|  | 1
 | 10   | Média      | Como desenvolvedor, quero criar a estrutura inicial do dashboard, para iniciar a visualização dos dados|    | 1
