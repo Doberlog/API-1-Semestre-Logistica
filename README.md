@@ -51,7 +51,7 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 | 4    | Baixa      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. |    | 1 |
 | 5    | Média      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. |    |  | 
 | 6    | Alta       | Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional.  |  | 2 |
-| 7    | Alta       | Como gestor público espero que utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+  | 2 |
+| 7    | Alta       | Como gestor público espero que utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+  |  | 2
 | 8    | Baixa      | Eu como cliente espero que me mostrem os dados de transporte de cargas |  | 1
 | 9    | Alta       | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 1
 | 10   | Média      | Como desenvolvedor, quero criar a estrutura inicial do dashboard, para iniciar a visualização dos dados|    | 1
