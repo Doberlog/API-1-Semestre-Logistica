@@ -42,3 +42,12 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 * GitHub
 * Power BI
 * Python (Colab)
+
+# Registro das Sprints
+
+| Sprint            | Previsão   | Status   | Histórico |
+|-------------------|------------|----------|-----------|
+| 01                | 23/04/2026 | a fazer  | [MVP](MVP/sp1.md)  |
+| 02                | 14/05/2026 | a fazer  | [MVP](MVP/sp2.md)  |
+| 03                | 04/06/2026 | a fazer  | [MVP](MVP/sp3.md)  |
+| Feira de Soluções | 11/06/2026 | a fazer  | [MVP](#)  |
