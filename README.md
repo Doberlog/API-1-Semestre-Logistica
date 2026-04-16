@@ -1,4 +1,4 @@
-gf# DoberLog
+# DoberLog
 Repositório para desenvolvimento da API do 1ª Semestre de Logística na Fatec SJC.
 
 # Aprendizado por Projeto Integrado (API) 
@@ -50,12 +50,12 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 | 3    | Baixa      | Como gestor público quero que façam um 5W2H para melhor organizaçãode tempo para a realização do projeto |    | 1
 | 4    | Baixa      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. |    | 1 |
 | 5    | Média      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. |    |  | 
-| 6    | Alta       | Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional.  |  | 2 |
-| 7    | Alta       | Como gestor público espero que utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+  |  | 2
-| 8    | Baixa      | Eu como cliente espero que me mostrem os dados de transporte de cargas |  | 1
-| 9    | Alta       | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 1
-| 10   | Média      | Como desenvolvedor, quero criar a estrutura inicial do dashboard, para iniciar a visualização dos dados|    | 1
-| 11   | Alta       | Como cliente, desejo visualizar os dados comerciais do estado de São Paulo para análise logística da região|    | 1
+| 6   | Baixa      | Eu como cliente espero que me mostrem os dados de transporte de cargas |  | 1
+| 7   | Alta       | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 1
+| 8   | Média      | Como desenvolvedor, quero criar a estrutura inicial do dashboard, para iniciar a visualização dos dados|    | 1
+| 9   | Alta       | Como cliente, desejo visualizar os dados comerciais do estado de São Paulo para análise logística da região|    | 1
+|   10 | Alta       | Como gestor público espero que utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+  |  | 2
+|  11  | Alta       | Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional.  |  | 2 |
 | 12   | Alta       | Como cliente, desejo visualizar os dados dos municípios do Estado de  São Paulo, para abranger a análise do fluxo logístico da região. |  | 2
 | 13   | Média      | Como cliente, quero saber quais os produtos mais comercializados na região do vale em KG e valor FOB, para medir desempenho inicial.          | | 2
 | 14   | Média      |   Como cliente, desejo visualizar a quantidade dos produtos comercializados nos municípios do estado, para análisar valor agregado.        |  | 2
