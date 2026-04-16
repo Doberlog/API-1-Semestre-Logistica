@@ -53,11 +53,11 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 | 6   | Baixa      | Como gestor público, espero que me mostrem os dados de transporte de cargas |  | 2
 | 7   | Alta       | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 2
 | 8   | Média      | Como gestor público, espero que utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+ |    | 2
-| 9   | Alta       |  Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional. |    | 0
-|   10 | Alta       | Como gestor público espero que apresentem os dados de transporte de cargas para uma melhor visualização dos fluxos logísticos.  |  | 0
-|  11  | Alta       |  Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 0 |
-| 12   | Alta       | Como gestor público espero que no dashboard tenha os dados de importação do municipios do estado de São Paulo |  | 0
-| 13   | Média      | Como gestor público, espero que o dashboard apresente os indicadores de desempenho exportador dos municípios do Estado de São Paulo, visando ao monitoramento da balança comercial regional.   | | 0
+| 9   | Alta       |  Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional. |    | 2
+|   10 | Alta       | Como gestor público espero que apresentem os dados de transporte de cargas para uma melhor visualização dos fluxos logísticos.  |  | 2
+|  11  | Alta       |  Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 3 |
+| 12   | Alta       | Como gestor público espero que no dashboard tenha os dados de importação do municipios do estado de São Paulo |  | 3
+| 13   | Alta      | Como gestor público, espero que o dashboard apresente os indicadores de desempenho exportador dos municípios do Estado de São Paulo, visando ao monitoramento da balança comercial regional.   | | 3
 | 14   | Média      |         |  | 0
 | 15   | Alta       |         |   | 0
 
