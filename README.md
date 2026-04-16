@@ -50,10 +50,11 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 | 3    | Baixa      | Como gestor público quero que façam um 5W2H para melhor organizaçãode tempo para a realização do projeto |    | 1
 | 4    | Baixa      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. |    | 1 |
 | 5    | Média      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. |    |  | 
-| 6    | Alta       |   | 1 |
-| 7    | Alta       |   | 1 |
-| 8    | Alta       | Como desenvolvedor, quero identificar países parceiros, para análise inicial do comércio |  | 1
-| 9    | Alta       | Como desenvolvedor, quero criar a base de dados para gerar o dashboard|  | 1
+| 6    | Alta       | Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional.  | 2 |
+| 7    | Alta       | Como gestor público espero que 
+utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+  | 2 |
+| 8    | Baixa      | Eu como cliente espero que me mostrem os dados de transporte de cargas |  | 1
+| 9    | Alta       | Como gestor público espero que apresentem os dados de transporte de cargas para uma melhor visualização dos fluxos logísticos. |  | 1
 | 10   | Média      | Como desenvolvedor, quero criar a estrutura inicial do dashboard, para iniciar a visualização dos dados|    | 1
 | 11   | Alta       | Como cliente, desejo visualizar os dados comerciais do estado de São Paulo para análise logística da região|    | 1
 | 12   | Alta       | Como cliente, desejo visualizar os dados dos municípios do Estado de  São Paulo, para abranger a análise do fluxo logístico da região. |  | 2
