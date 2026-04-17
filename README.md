@@ -6,7 +6,7 @@ Repositório para desenvolvimento da API do 1ª Semestre de Logística na Fatec 
 # Índice
 * [Objetivo do Projeto](#objetivo-do-projeto)
 * [Equipe](#Equipe)
-* [Backlog do produto](#Product-Backlog)
+* [Backlog do produto](#Backlog-do-Produto)
 * [Competências desenvolvidas](#competências-desenvolvidas)
 * [Registro das Sprints](#Registro-das-Sprints)
 
