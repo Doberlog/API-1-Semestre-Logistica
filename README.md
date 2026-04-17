@@ -62,10 +62,10 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 
 
 # Registro das Sprints
-
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
-| 01                | 23/04/2026 | a fazer  | [MVP](MVP/sp1.md)  |
-| 02                | 14/05/2026 | a fazer  | [MVP](MVP/sp2.md)  |
-| 03                | 04/06/2026 | a fazer  | [MVP](MVP/sp3.md)  |
-| Feira de Soluções | 11/06/2026 | a fazer  | [MVP](#)  |
+| 00                | 24/03/2026 | Concluído  | [MVP](https://drive.google.com/file/d/12i6gF7nhnk3L-DnqhCVuHB8q7PUl1RAK/view?usp=drive_link)  |
+| 01                | 23/04/2026 | Em andamento  | [MVP]()  |
+| 02                | 14/05/2026 | a fazer  | [MVP]()  |
+| 03                | 04/06/2025 | a fazer  | [MVP]()  |
+| Feira de Soluções | 18/06/2026 | a fazer  | [MVP]()  |
