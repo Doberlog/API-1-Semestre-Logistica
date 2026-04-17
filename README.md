@@ -61,7 +61,7 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 
 
 
-# Registro das Sprints
+# [Registro das Sprints](#Registro-das-Sprints)
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
 | 00                | 24/03/2026 | Concluído  | [MVP](https://drive.google.com/file/d/12i6gF7nhnk3L-DnqhCVuHB8q7PUl1RAK/view?usp=drive_link)  |
