@@ -47,10 +47,10 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 # [Backlog do produto](#Backlog-do-produto)
 | Rank | Prioridade | User Story                                                                                                                                              | Estimativa | Sprint |
 |------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------|
-| 1    | Alta       | Como gestor público, desejo exportar os dados de importação e exportação para arquivos em formato CSV ou Excel, visando o consumo das informações em ferramentas externas. |  | 1
-| 2    | Alta       | Como gestor público, espero a extração, o tratamento e a estruturação dos dados de comércio exterior do Estado de São Paulo via Comex Stat (2023-2026), visando o mapeamento analítico dos fluxos logísticos entre municípios paulistas e o mercado internacional. |    | 1
-| 3    | Baixa      | Como gestor público quero que façam um 5W2H para melhor organizaçãode tempo para a realização do projeto |    | 1
-| 4    | Baixa      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. |    | 1 |
+| 1    | Alta       | Como gestor público, desejo exportar os dados de importação e exportação para arquivos em formato CSV ou Excel, visando o consumo das informações em ferramentas externas. | 2 horas  | 1
+| 2    | Alta       | Como gestor público, espero a extração, o tratamento e a estruturação dos dados de comércio exterior do Estado de São Paulo via Comex Stat (2023-2026), visando o mapeamento analítico dos fluxos logísticos entre municípios paulistas e o mercado internacional. | 3 horas   | 1
+| 3    | Baixa      | Como gestor público quero que façam um 5W2H para melhor organizaçãode tempo para a realização do projeto |  40 minutos  | 1
+| 4    | Baixa      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. | 1h30    | 1 |
 | 5   | Baixa      | Como gestor público, espero que me mostrem os dados de transporte de cargas | | 2
 | 6   | Alta       | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 2
 | 7   | Média      | Como gestor público, espero que utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+ |    | 2
