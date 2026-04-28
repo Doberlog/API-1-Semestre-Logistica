@@ -51,7 +51,7 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 | 2    | Alta       | Como gestor público, espero a extração, o tratamento e a estruturação dos dados de comércio exterior do Estado de São Paulo via Comex Stat (2023-2026), visando o mapeamento analítico dos fluxos logísticos entre municípios paulistas e o mercado internacional. | 3 horas   | 1
 | 3    | Baixa      | Como gestor público quero que façam um 5W2H para melhor organizaçãode tempo para a realização do projeto |  40 minutos  | 1
 | 4    | Baixa      | Como gestor público, espero que o repositório no GitHub seja estruturado permitindo o acompanhamento do desenvolvimento por etapas. | 1h30    | 1 |
-| 5   | Baixa      | Como gestor público, espero que me mostrem os dados de transporte de cargas | | 2
+| 5   | Baixa      | Como gestor público, espero que me mostrem os dados de transporte de cargas; EX: quais são os itens mais transportados,qual o caminhão mais utilizado entre outros | | 2
 | 6   | Alta       | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnologica nos proximos anos |  | 2
 | 7   | Média      | Como gestor público, espero que utilizem os recursos do Google Collab para desenvolvimento e processamento dos dados na linguagem python 3+ |    | 2
 | 8   | Alta       |  Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional. |    | 2
