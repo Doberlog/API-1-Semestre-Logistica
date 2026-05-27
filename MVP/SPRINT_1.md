@@ -65,3 +65,5 @@ Breve explicação do que será desenvolvido e entregue nesta etapa.
 * Prints da estrutura de pastas do repositório no GitHub
 * Tabela ou documento do planejamento estratégico 5W2H
 * Captura de tela do script de extração/tratamento e do arquivo CSV/Excel gerado
+[Analise de comercio exterior estado de SP.pdf](https://github.com/user-attachments/files/28325920/Analise.de.comercio.exterior.estado.de.SP.pdf)
+
