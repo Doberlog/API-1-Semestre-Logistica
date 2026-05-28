@@ -64,6 +64,8 @@ Breve explicação do que será desenvolvido e entregue nesta etapa.
 ## 📂 Anexos / Evidências
 * Prints da estrutura de pastas do repositório no GitHub
 * Tabela ou documento do planejamento estratégico 5W2H
+  [5w2h API Doberlog.xlsx](https://github.com/user-attachments/files/28327200/5w2h.API.Doberlog.xlsx)
+
 * Captura de tela do script de extração/tratamento e do arquivo CSV/Excel gerado
 [Analise de comercio exterior estado de SP.pdf](https://github.com/user-attachments/files/28325920/Analise.de.comercio.exterior.estado.de.SP.pdf)
 
