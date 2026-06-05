@@ -68,6 +68,6 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 |-------------------|------------|----------|-----------|
 | 00                | 24/03/2026 | Concluído  | [MVP](https://drive.google.com/file/d/12i6gF7nhnk3L-DnqhCVuHB8q7PUl1RAK/view?usp=drive_link)  |
 | 01                | 23/04/2026 | Concluído  | [MVP](https://github.com/Doberlog/API-1-Semestre-Logistica/blob/main/MVP/SPRINT_1.md)  |
-| 02                | 14/05/2026 | A fazer  | [MVP]()  |
-| 03                | 04/06/2025 | A fazer  | [MVP]()  |
+| 02                | 14/05/2026 | A fazer  | [MVP](https://github.com/Doberlog/API-1-Semestre-Logistica/blob/main/MVP/SPRINT_2.md)  |
+| 03                | 04/06/2025 | A fazer  | [MVP](https://github.com/Doberlog/API-1-Semestre-Logistica/blob/main/MVP/SPRINT_3.md)  |
 | Feira de Soluções | 18/06/2026 | A fazer  | [MVP]()  |
