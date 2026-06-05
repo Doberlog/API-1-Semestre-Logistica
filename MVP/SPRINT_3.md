@@ -81,6 +81,6 @@ Evolução do dashboard e do processamento de dados com foco em inteligência lo
 
 ## 📂 Anexos / Evidências
 
-* *[Link do repositório DoberLog no GitHub](SEU_LINK_AQUI)*
-* *Insira aqui os prints das novas tabelas de transporte tratadas no Python*
-* *Insira aqui os screenshots das novas telas do Dashboard (Balança Comercial e Importações) no Power BI*
+* *[Link do repositório DoberLog no GitHub](https://github.com/Doberlog/API-1-Semestre-Logistica)*
+* *Prints das novas tabelas de transporte tratadas no Python*
+* *Screenshots das novas telas do Dashboard (Balança Comercial e Importações) no Power BI*
