@@ -82,6 +82,6 @@ Processamento de dados e a entrega visual desenvolvidos para esta etapa.
 
 ## 📂 Anexos / Evidências
 
-* *[Link do repositório DoberLog no GitHub](SEU_LINK_AQUI)*
+* *[Link do repositório DoberLog no GitHub](https://github.com/Doberlog/API-1-Semestre-Logistica)*
 * *Prints do código estruturado no Google Colab*
 * *Screenshots das telas interativas do Dashboard no Power BI*
