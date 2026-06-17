@@ -2,27 +2,27 @@
 
 ## 🎯 Objetivo do MVP
 
-* **Qual problema resolve?** A dificuldade de gestores públicos em acessar, cruzar e analisar de forma rápida os dados complexos de comércio exterior (Comex Stat 2023-2026) dos municípios do Estado de São Paulo, o que atrasa o mapeamento analítico dos fluxos logísticos regionais e internacionais.
-* **Qual hipótese será validada?** Se o uso do Google Colab (Python) para automatizar o tratamento de dados, combinado com a criação de um Dashboard interativo no Power BI, permite que gestores públicos identifiquem disparidades e potencialidades econômicas e logísticas regionais de forma mais rápida do que planilhas brutas tradicionais.
-* **Qual valor será entregue ao usuário final?** Capacidade de cruzar dados de importação/exportação por município, gerando inteligência comercial e insights para a expansão econômica, logística e tecnológica do Estado.
+* **Qual problema resolve?** A falta de cruzamento analítico de dados de transporte de cargas e a necessidade de correlacionar informações logísticas entre os diferentes municípios paulistas para identificar disparidades e potencialidades regionais.
+* **Qual hipótese será validada?** Se o processamento via Python (Google Colab) permite correlacionar e mapear com precisão os itens mais transportados, auxiliando na identificação de municípios polo com indicadores favoráveis à expansão econômica e tecnológica.
+* **Qual valor será entregue ao usuário final?** Uma análise preliminar dos fluxos logísticos de transporte de cargas e a identificação de disparidades regionais através do cruzamento automatizado de dados.
 
 ---
 
 ## 📝 Descrição da Solução
 
-Processamento de dados e a entrega visual desenvolvidos para esta etapa.
+Processamento de dados focado em modais, veículos e correlações municipais desenvolvidos para esta etapa.
 
 ### Funcionalidades principais incluídas
-* **Pipeline de Extração e Tratamento (Python/Colab):** Limpeza, estruturação e correlação dos dados brutos do Comex Stat (2023-2026) focados no Estado de São Paulo.
-* **Dashboard Interativo (Power BI):** Telas iniciais mostrando índices agregados de exportação e importação das cidades paulistas.
-* **Análise por Município:** Filtros interativos para comparar o desempenho comercial e fluxos logísticos entre diferentes cidades.
+* **Processamento de Dados de Carga (Python):** Estruturação e filtragem dos itens mais transportados na malha de comércio exterior paulista.
+* **Análise de Correlação:** Algoritmos em Python (Colab) para comparar o fluxo comercial e identificar semelhanças ou disparidades logísticas entre os municípios.
+* **Mapeamento de Tendências:** Indicadores que apontam quais cidades possuem infraestrutura ou dados favoráveis à expansão econômica e tecnológica nos próximos anos.
 
 ### Limitações conhecidas
-* O volume massivo de dados de todos os municípios do estado pode gerar lentidão no processamento do Google Colab e no tempo de resposta inicial dos filtros do Power BI.
-* Dados de transporte de cargas e modais específicos ainda podem conter lacunas ou generalizações devido à formatação de origem do Comex Stat.
+* Nesta etapa, o foco ficou concentrado no processamento, tratamento e inteligência dos dados em Python, sem a consolidação total dos dashboards interativos de importação/exportação (que serão o foco visual da próxima Sprint).
+* Algumas informações sobre tipos exatos de caminhões dependem do nível de detalhamento e preenchimento das bases do Comex Stat.
 
 ### Escopo reduzido
-* Foco estrito no fluxo comercial (Importação/Exportação) e indicadores econômicos das cidades do Estado de São Paulo no período de 2023 a 2026, adiando refinamentos complexos de cubagem de carga para as próximas etapas.
+* Análise focada estritamente nas variáveis de transporte de cargas e correlações entre os municípios de São Paulo no período de 2023 a 2026.
 
 ---
 
@@ -30,8 +30,8 @@ Processamento de dados e a entrega visual desenvolvidos para esta etapa.
 
 ### Gestor Público (Secretaria de Desenvolvimento Econômico / Logística)
 * **Descrição:** Profissional responsável por planejar o crescimento regional, atrair investimentos e otimizar a infraestrutura de transporte do Estado.
-* **Necessidades:** Identificar disparidades regionais, descobrir quais municípios estão em expansão tecnológica/econômica e entender o volume do fluxo internacional que passa por cada região.
-* **Dores:** Perda de tempo limpando planilhas gigantescas e falta de clareza visual para comparar o desempenho logístico entre cidades vizinhas.
+* **Necessidades:** Saber quais são as cidades polo em expansão e quais itens sobrecarregam mais os fluxos logísticos regionais.
+* **Dores:** Dificuldade em cruzar dados de diferentes municípios de forma rápida para enxergar disparidades no comércio regional.
 
 ---
 
@@ -39,11 +39,11 @@ Processamento de dados e a entrega visual desenvolvidos para esta etapa.
 
 | ID | User Story | Prioridade | Estimativa |
 | :--- | :--- | :--- | :--- |
-| **US2** | Como gestor público, espero a extração, o tratamento e a estruturação dos dados de comércio exterior do Estado de São Paulo via Comex Stat (2023-2026)... | Alta | 3 horas |
-| **US6** | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnológica nos próximos anos. | Alta | 2 horas |
-| **US7** | Como gestor público, espero que utilizem os recursos do Google Colab para desenvolvimento e processamento dos dados na linguagem python 3+. | Média | 2 horas |
-| **US8** | Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios... | Alta | 2 horas |
-| **US10** | Como gestor público, espero a criação de um dashboard interativo mostrando índices de exportação e importação de cidades do estado de SP. | Alta | 3 horas |
+| **US5** | Como gestor público, espero que me mostrem os dados de transporte de cargas; EX: quais são os itens mais transportados, qual o caminhão mais utilizado entre outros. | Baixa | - |
+| **US6** | Como gestor público, espero uma análise das cidades com indicadores favoráveis à expansão da economia e tecnológica nos próximos anos. | Alta | - |
+| **US7** | Como gestor público, espero que utilizem os recursos do Google Colab para desenvolvimento e processamento dos dados na linguagem python 3+. | Média | - |
+| **US8** | Como gestor público, espero a correlação dos dados extraídos do Comex Stat para comparação entre municípios, permitindo a identificação de disparidades e potencialidades no fluxo comercial regional. | Alta | - |
+| **US9** | Como gestor público espero que apresentem os dados de transporte de cargas para uma melhor visualização dos fluxos logísticos. | Alta | - |
 
 ---
 
@@ -51,37 +51,35 @@ Processamento de dados e a entrega visual desenvolvidos para esta etapa.
 
 | Sprint | Entregas Principais | Status |
 | :--- | :--- | :--- |
-| **01** | Estruturação do GitHub, Planejamento (5W2H) e Definição do Escopo. | Concluído |
-| **02** | Script em Python (Colab) para tratamento de dados + Dashboard interativo no Power BI com índices de Importação/Exportação por Município. | **Em andamento** |
+| **01** | Exportação de dados (CSV/Excel), Extração e tratamento Comex Stat, Estruturação do GitHub e 5W2H (US1, US2, US3 e US4). | Concluído |
+| **02** | Análise de transporte de cargas, correlação de dados entre municípios via Google Colab (Python 3+) e indicadores de expansão (US5, US6, US7, US8 e US9). | **Concluído** |
 
 ---
 
 ## 📊 Critérios de Aceitação
 
-* O MVP deve permitir que o usuário filtre e compare os dados comerciais de pelo menos dois municípios paulistas simultaneamente no Power BI.
-* O script em Python deve rodar no Google Colab sem erros de tipagem, gerando uma base limpa e unificada do período 2023-2026.
-* **Métricas coletadas:** Tempo de execução do script de tratamento em Python; tempo de atualização dos gráficos do Power BI após a aplicação de filtros municipais.
+* O script em Python deve ser capaz de correlacionar e comparar os dados comerciais de diferentes municípios de São Paulo.
+* Os resultados gerados devem destacar com clareza quais são as mercadorias/itens líderes em transporte nas regiões analisadas.
+* **Métricas coletadas:** Tempo gasto para rodar o algoritmo de correlação no Google Colab e percentual de acerto na filtragem dos itens mais transportados.
 
 ---
 
 ## 📈 Métricas de Validação
 
-* **Testes de Usabilidade:** Número de integrantes da equipe (ou validação externa) que testaram os filtros do dashboard e conseguiram extrair insights de disparidade comercial.
-* **Feedback qualitativo:** Avaliação se a disposição dos gráficos de importação/exportação por cidade ficou intuitiva.
-* **Indicadores técnicos:** Percentual de dados nulos ou corrompidos eliminados durante a etapa de tratamento no Python.
+* **Testes de Usabilidade:** Verificação interna se o script em Python unificou corretamente os dados logísticos por município sem gerar duplicidade.
+* **Feedback qualitativo:** Avaliação da equipe se a análise de tendências de expansão das cidades gerou insights coerentes com a realidade do estado de SP.
+* **Indicadores técnicos:** Execução com sucesso de 100% das funções de agrupamento de dados no ambiente do Google Colab.
 
 ---
 
 ## 🚀 Próximos Passos
 
-* Aprofundar a análise de transporte de cargas (identificar os itens mais transportados e tipos de veículos/modais mais utilizados - correspondente às US5, US9 e US11/12).
-* Implementar a funcionalidade de exportação direta dos dados tratados para formatos amigáveis (CSV/Excel) diretamente pelo dashboard ou script final.
-* Ajustes de usabilidade e design visual baseados nos feedbacks da Review da Sprint 2.
+* Desenvolvimento e entrega da Sprint 3, com foco total na criação das telas e gráficos visuais no Power BI (Dashboards interativos de exportação, importação e indicadores de desempenho da balança comercial - US10, US11 e US12).
 
 ---
 
 ## 📂 Anexos / Evidências
 
 * *[Link do repositório DoberLog no GitHub](https://github.com/Doberlog/API-1-Semestre-Logistica)*
-* *Prints do código estruturado no Google Colab*
-* *Screenshots das telas interativas do Dashboard no Power BI*
+* *Insira aqui prints das linhas de código de correlação geradas no Google Colab*
+* *Insira aqui os resultados em tabelas ou gráficos gerados a partir do script em Python*
