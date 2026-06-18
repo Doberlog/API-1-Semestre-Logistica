@@ -80,5 +80,7 @@ Etapa final de integração visual dos dados e entrega do ecossistema do Dashboa
 ## 📂 Anexos / Evidências
 
 * *[Link do repositório DoberLog no GitHub](https://github.com/Doberlog/API-1-Semestre-Logistica)*
-* *Insira aqui as capturas de tela das páginas de Importação e Exportação do Power BI*
-* *Insira aqui o print do painel mostrando o saldo final da Balança Comercial dos Municípios*
+* **Tela de Exportação e Importação por Cidade:**
+  ![Páginas do Power BI](LINK_OU_ARRANQUE_O_PRINT_AQUI)
+* **Painel Geral com o Saldo Final da Balança Comercial:**
+  ![Saldo da Balança Comercial](LINK_OU_ARRANQUE_O_PRINT_AQUI)
