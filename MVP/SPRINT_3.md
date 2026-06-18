@@ -2,27 +2,27 @@
 
 ## 🎯 Objetivo do MVP
 
-* **Qual problema resolve?** A falta de visibilidade detalhada sobre os fluxos físicos de transporte de cargas (modais, veículos mais utilizados e tipos de mercadorias mais movimentadas) e a necessidade de monitorar indicadores específicos de importação e balança comercial para os municípios do Estado de São Paulo.
-* **Qual hipótese será validada?** Se a inclusão de dados operacionais de transporte (como o perfil de veículos e mercadorias predominantes) unida a visões específicas de importação no Power BI permite que o gestor identifique gargalos de infraestrutura e assimetrias na balança comercial regional de forma preditiva.
-* **Qual valor será entregue ao usuário final?** Um mapeamento logístico e comercial completo, permitindo ao gestor público entender não apenas *quanto* a cidade negocia economicamente, mas *como* essa carga se movimenta fisicamente e quais são as demandas de infraestrutura de transporte.
+* **Qual problema resolve?** A falta de uma interface amigável, centralizada e interativa que permita aos gestores públicos visualizarem os índices comerciais e monitorarem o desempenho da balança comercial dos municípios de São Paulo sem depender de códigos ou planilhas brutas.
+* **Qual hipótese será validada?** Se a consolidação dos dados tratados em um dashboard interativo no Power BI, com páginas específicas para importação, exportação e balança comercial, reduz o tempo de análise estratégica e apoia o monitoramento regional.
+* **Qual valor será entregue ao usuário final?** Um painel gerencial interativo completo que unifica o desempenho importador e exportador, entregando o saldo da balança comercial dos municípios paulistas de forma visual e intuitiva.
 
 ---
 
 ## 📝 Descrição da Solução
 
-Evolução do dashboard e do processamento de dados com foco em inteligência logística e balança comercial.
+Etapa final de integração visual dos dados e entrega do ecossistema do Dashboard no Power BI.
 
 ### Funcionalidades principais incluídas
-* **Painel Logístico de Cargas:** Gráficos detalhando os itens mais transportados e estimativas/perfis de transporte (tipos de caminhões/modais mais comuns aplicados ao fluxo do estado).
-* **Visão Dedicada de Importação:** Telas exclusivas no Power BI focadas na entrada de insumos e mercadorias nos municípios paulistas.
-* **Indicadores da Balança Comercial:** Visualização de desempenho exportador/importador e saldo comercial consolidado das regiões.
+* **Dashboard Interativo (Power BI):** Construção da interface visual contendo gráficos, cartões e filtros interativos de exportação e importação.
+* **Visão de Importação por Município:** Painel dedicado especificamente para monitorar o fluxo de entrada de mercadorias no nível municipal.
+* **Indicadores de Desempenho da Balança Comercial:** Cálculo e exibição visual do saldo comercial regional (Exportações vs. Importações) para monitoramento do desempenho econômico.
 
 ### Limitações conhecidas
-* A consolidação de dados de modais específicos (rodoviário, ferroviário, aéreo) depende estritamente do nível de detalhamento disponível nas atualizações recentes do Comex Stat para o período de 2023-2026.
-* Maior consumo de memória no Power BI devido ao cruzamento de dados de peso (KG) e valor (FOB) com variáveis de transporte.
+* O carregamento inicial dos gráficos por cidade pode apresentar uma leve latência devido ao volume histórico consolidado (2023-2026) que alimenta o Power BI.
+* A precisão na segmentação por bairros ou sub-regiões não é possível, limitando-se ao escopo municipal fornecido pelo Comex Stat.
 
 ### Escopo reduzido
-* Consolidação das regras de negócio logísticas (foco nos principais produtos e fluxos agregados), deixando para a sprint final apenas as funções de exportação automatizada de relatórios externos (CSV/Excel).
+* Foco total nas métricas gerenciais e na interatividade do dashboard (filtros por cidades e anos), concluindo a entrega de todas as análises planejadas no backlog do produto.
 
 ---
 
@@ -30,8 +30,8 @@ Evolução do dashboard e do processamento de dados com foco em inteligência lo
 
 ### Gestor Público (Secretaria de Desenvolvimento Econômico / Logística)
 * **Descrição:** Profissional responsável por planejar o crescimento regional, atrair investimentos e otimizar a infraestrutura de transporte do Estado.
-* **Necessidades:** Compreender quais rodovias e rotas sofrem maior pressão de carga com base nos itens mais transportados e monitorar se os municípios mantêm uma balança comercial superavitária.
-* **Dores:** Dificuldade em cruzar o valor financeiro da mercadoria com o impacto físico (peso e cubagem presumida) que ela gera na malha de transportes local.
+* **Necessidades:** Avaliar quais municípios registram superávit ou déficit comercial e apresentar relatórios claros sobre o fluxo de importação e exportação regional para o alto escalão governamental.
+* **Dores:** Dificuldade em gerar relatórios visuais rápidos e consolidados que mostrem o panorama geral da balança comercial do estado.
 
 ---
 
@@ -39,10 +39,9 @@ Evolução do dashboard e do processamento de dados com foco em inteligência lo
 
 | ID | User Story | Prioridade | Estimativa |
 | :--- | :--- | :--- | :--- |
-| **US5** | Como gestor público, espero que me mostrem os dados de transporte de cargas; EX: quais são os itens mais transportados, qual o caminhão mais utilizado entre outros. | Alta | 2 horas |
-| **US9** | Como gestor público espero que apresentem os dados de transporte de cargas para uma melhor visualização dos fluxos logísticos. | Alta | 2 horas |
-| **US11** | Como gestor público espero que no dashboard tenha os dados de importação dos municípios do estado de São Paulo. | Alta | 3 horas |
-| **US12** | Como gestor público, espero que o dashboard apresente os indicadores de desempenho exportador dos municípios do Estado de São Paulo, visando ao monitoramento da balança comercial regional. | Alta | 3 horas |
+| **US10** | Como gestor público, espero a criação de um dashboard interativo mostrando índices de exportação e importação de cidades do estado de São Paulo. | Alta | - |
+| **US11** | Como gestor público espero que no dashboard tenha os dados de importação dos municípios do estado de São Paulo. | Alta | - |
+| **US12** | Como gestor público, espero que o dashboard apresente os indicadores de desempenho exportador dos municípios do Estado de São Paulo, visando ao monitoramento da balança comercial regional. | Alta | - |
 
 ---
 
@@ -50,37 +49,36 @@ Evolução do dashboard e do processamento de dados com foco em inteligência lo
 
 | Sprint | Entregas Principais | Status |
 | :--- | :--- | :--- |
-| **01** | Estruturação do GitHub, Planejamento (5W2H) e Definição do Escopo. | Concluído |
-| **02** | Script em Python (Colab) para tratamento de dados + Dashboard interativo no Power BI com índices de Importação/Exportação por Município. | Concluído |
-| **03** | Painel de transporte de cargas (itens e perfis de veículos), visão isolada de importação e indicadores da Balança Comercial regional no Power BI. | **Em andamento** |
+| **01** | Exportação de dados (CSV/Excel), Extração e tratamento Comex Stat, Estruturação do GitHub e 5W2H (US1, US2, US3 e US4). | Concluído |
+| **02** | Análise de transporte de cargas, correlação de dados entre municípios via Google Colab (Python 3+) e indicadores de expansão (US5, US6, US7, US8 e US9). | Concluído |
+| **03** | Desenvolvimento do Dashboard interativo no Power BI com painéis de importação, exportação e indicadores de desempenho da balança comercial regional (US10, US11 e US12). | **Concluído** |
 
 ---
 
 ## 📊 Critérios de Aceitação
 
-* O Dashboard deve possuir uma aba ou seção dedicada exclusivamente à análise do transporte de cargas (mostrando os produtos líderes em movimentação).
-* O sistema deve exibir claramente o saldo da balança comercial (Exportações (-) Importações) ao selecionar um município ou região do estado de SP.
-* **Métricas coletadas:** Tempo de resposta na transição entre as páginas de importação e exportação; consistência dos valores de peso líquido agregados por tipo de produto.
+* O Power BI deve exibir corretamente as abas ou filtros para alternar entre as visões de exportação, importação e balança comercial municipal.
+* Ao selecionar um município do Estado de São Paulo, todos os cartões e gráficos do painel devem filtrar os índices automaticamente em tempo real.
+* **Métricas coletadas:** Tempo de resposta na atualização dos gráficos ao aplicar filtros por município e total de registros financeiros validados no painel.
 
 ---
 
 ## 📈 Métricas de Validação
 
-* **Testes de Usabilidade:** Validação da navegação entre as novas páginas do relatório de importação e transporte.
-* **Feedback qualitativo:** Avaliação se os dados de transporte (itens mais transportados) trazem insights claros para a tomada de decisão em logística pública.
-* **Indicadores técnicos:** Verificação da integridade das correlações feitas no Python para garantir que os dados logísticos batam com os totais financeiros informados na Sprint 2.
+* **Testes de Usabilidade:** Simulação de uso onde os integrantes da equipe testaram a navegação entre os indicadores de importação e balança comercial no dashboard.
+* **Feedback qualitativo:** Confirmação se os gráficos gerados no Power BI facilitam o monitoramento da balança comercial das cidades polo mapeadas.
+* **Indicadores técnicos:** Correspondência exata (100% de match) entre os valores financeiros gerados no dashboard e a base tratada em Python na Sprint anterior.
 
 ---
 
 ## 🚀 Próximos Passos
 
-* Implementação da User Story final (**US1**): Criar a funcionalidade que permite ao gestor exportar os dados limpos, tratados e correlacionados diretamente para arquivos CSV ou Excel.
-* Refinamento estético final do Dashboard do Power BI (UX/UI) e documentação completa da arquitetura do projeto no repositório.
+* Preparação final para a **Feira de Soluções**, focando na gravação do vídeo demonstrativo da aplicação (MVP) e consolidação da documentação final do repositório no GitHub.
 
 ---
 
 ## 📂 Anexos / Evidências
 
 * *[Link do repositório DoberLog no GitHub](https://github.com/Doberlog/API-1-Semestre-Logistica)*
-* *Prints das novas tabelas de transporte tratadas no Python*
-* *Screenshots das novas telas do Dashboard (Balança Comercial e Importações) no Power BI*
+* *Insira aqui as capturas de tela das páginas de Importação e Exportação do Power BI*
+* *Insira aqui o print do painel mostrando o saldo final da Balança Comercial dos Municípios*
