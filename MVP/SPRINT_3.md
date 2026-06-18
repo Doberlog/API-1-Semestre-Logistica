@@ -80,8 +80,9 @@ Etapa final de integração visual dos dados e entrega do ecossistema do Dashboa
 ## 📂 Anexos / Evidências
 
 * *[Link do repositório DoberLog no GitHub](https://github.com/Doberlog/API-1-Semestre-Logistica)*
+
 * **Painel Interativo de Análise Logística dos Municípios de São Paulo:**
-  ![Dashboard Principal do Power BI](R<img width="772" height="415" alt="Captura de tela 2026-06-17 212157" src="https://github.com/user-attachments/assets/8c7c227b-fe10-482e-a46e-1ebf5c3955fd" />)
+  ![Dashboard Principal do Power BI](<img width="772" height="415" alt="Captura de tela 2026-06-17 212157" src="https://github.com/user-attachments/assets/8fed6a23-068a-4a46-99da-e82d44ff82ef" />)
 
 * **Estrutura de Dados e Detalhamento de Movimentação por Município:**
-  ![Matriz de Dados Interna](<img width="748" height="414" alt="Captura de tela 2026-06-17 212210" src="https://github.com/user-attachments/assets/b9901253-0ce0-48ce-aa4f-7455fc908d85" />)
+  ![Matriz de Dados Interna](<img width="748" height="414" alt="Captura de tela 2026-06-17 212210" src="https://github.com/user-attachments/assets/1214fec2-79ed-40eb-8101-773e458886ef" />)
