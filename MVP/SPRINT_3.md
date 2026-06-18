@@ -83,8 +83,4 @@ Etapa final de integração visual dos dados e entrega do ecossistema do Dashboa
 
 * **Painel Interativo de Análise Logística dos Municípios de São Paulo:**
   <br>
-  <img width="772" height="415" alt="Captura de tela 2026-06-17 212157" src="https://github.com/user-attachments/assets/8fed6a23-068a-4a46-99da-e82d44ff82ef" />
-
-* **Estrutura de Dados e Detalhamento de Movimentação por Município:**
-  <br>
-  <img width="748" height="414" alt="Captura de tela 2026-06-17 212210" src="https://github.com/user-attachments/assets/1214fec2-79ed-40eb-8101-773e458886ef" />
+  <img width="1157" height="648" alt="Captura de Tela (51)" src="https://github.com/user-attachments/assets/64e1dd1c-118b-4322-8c6b-585eac3a2b4b" />
